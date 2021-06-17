@@ -9,7 +9,7 @@ function commonLetters(str1, str2){
         }        
     }
 
-    return common;
+    console.log("Common letters: " + common);
 }
 
-console.log(commonLetters("computer", "house"));
+commonLetters("computers", "house");

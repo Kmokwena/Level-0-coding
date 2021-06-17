@@ -1,9 +1,3 @@
-function checkVowel(str){
-    var i = 0;
-    var vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-
-}
-
 function isVowel(c){
     if (c === 'a' || c === 'e' || c === 'i' || c === 'o' || c === 'u')
         return true;
@@ -11,18 +5,18 @@ function isVowel(c){
     return  false;
 }
 
-function uniqueArray(array) {
+function uniqueArray(arr) {
     i = 0;
     var unique = [];
-    while (array[i]){
-        if (unique.indexOf(array[i]) < 0)
-            unique.push(array[i]);
+    while (arr[i]){
+        if (unique.indexOf(arr[i]) < 0)
+            unique.push(arr[i]);
         i++;
     }
     return unique;
 }
 
-function checkVowel2(str){
+function checkVowel(str){
     str = String(str).toLowerCase();
 
     var vowels = [];
@@ -33,10 +27,10 @@ function checkVowel2(str){
         i++;
     }
     
-    var string  = uniqueArray(vowels).join(", ")
+    var check  = uniqueArray(vowels).join(",");
     
 
-    console.log(string);
+    console.log("Vowels: " + check);
 }
 
-checkVowel2("Umuzi")
+checkVowel("Umuzi")

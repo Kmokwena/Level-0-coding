@@ -5,17 +5,19 @@ function toHoursAndMin(num){
     hours = Math.floor(num / 60);
     minutes = num % 60;
 
-    if (hours === 1)
+    if (hours === 1){
         hours = hours + " hour";
-    else
+    }else{
         hours = hours + " hours";
+    }
 
-    if (minutes === 1)
+    if (minutes === 1){
         minutes = minutes + " minute"
-    else
+    }else{
         minutes = minutes + " minutes"
+    }
 
     return hours + ", " + minutes;
 }
 
-console.log(toHoursAndMin(0));
+console.log(toHoursAndMin(1));
