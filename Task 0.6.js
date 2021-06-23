@@ -18,4 +18,4 @@ function getMax(a, b, c){
     return max;
 }
 
-console.log(getMax(3, 1, 2, 5, 8, 3));
+console.log(getMax(100, 1001, 102));
