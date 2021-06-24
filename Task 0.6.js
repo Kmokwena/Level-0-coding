@@ -8,13 +8,14 @@ function getMax(a, b, c){
         max = c;
         
     /** This is the BONUS! */
-    // var i = 0;
-    // max = arguments[0];
-    // while (arguments[i]){
-    //     if (max < arguments[i])
-    //         max = arguments[i];
-    //     i++
-    // }
+    
+    var i = 0;
+    max = arguments[0];
+    while (arguments[i]){
+        if (max < arguments[i])
+            max = arguments[i];
+        i++
+    }
     return max;
 }
 
