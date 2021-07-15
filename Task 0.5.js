@@ -1,13 +1,13 @@
 function semiperimeter (a, b, c){
-    var s;
+    let sum;
 
-    s = 0.5 * (a + b + c);
-    return s;
+    sum = 0.5 * (a + b + c);
+    return sum;
 }
 
 function getArea(x, y, z){
-    var area;
-    var semi = semiperimeter(x,y,z);
+    let area;
+    let semi = semiperimeter(x,y,z);
 
     area = Math.sqrt(semi * (semi - x) * (semi - y) * (semi - z));
     return area;

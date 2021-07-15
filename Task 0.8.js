@@ -1,6 +1,6 @@
 function toHoursAndMin(num){
-    var minutes;
-    var hours;
+    let minutes;
+    let hours;
     
     hours = Math.floor(num / 60);
     minutes = num % 60;

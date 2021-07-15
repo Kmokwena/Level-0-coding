@@ -1,5 +1,5 @@
 function getMax(a, b, c){
-    var max;
+    let max;
 
     max = a;
     if (max < b)
@@ -9,7 +9,7 @@ function getMax(a, b, c){
         
     /** This is the BONUS! */
     
-    var i = 0;
+    let i = 0;
     max = arguments[0];
     while (arguments[i]){
         if (max < arguments[i])
